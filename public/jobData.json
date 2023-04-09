@@ -1,0 +1,396 @@
+[
+  {
+    "company": "Google",
+    "logo": "https://i.ibb.co/thmK4zq/google.png",
+    "title": "Software Engineer",
+    "location": "Mountain View, CA (Onsite)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a software engineer to help us build and improve our cutting-edge software products. The ideal candidate will have experience with programming languages such as Java, Python, or C++, as well as experience with software development processes such as Agile or Scrum.",
+    "requirements": [
+      "Bachelor's or Master's degree in Computer Science or related field",
+      "1-2 years of experience in software engineering or related field",
+      "Proficiency in programming languages such as Java, Python, or C++",
+      "Experience with software development processes such as Agile or Scrum",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Design and implement software features and improvements",
+      "Collaborate with cross-functional teams to ensure product quality and user satisfaction",
+      "Write clean and maintainable code",
+      "Participate in code reviews and contribute to technical discussions"
+    ],
+    "experiences": [
+      "1-2 years of experience in software engineering or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "salary": "$110,000 - $140,000",
+    "postedDate": "2023-04-09",
+    "applyLink": "https://careers.google.com/jobs/results/135454322348774982-software-engineer/?company=Google&company=YouTube&employment_type=FULL_TIME&hl=en_US&jlo=en_US&q=&sort_by=relevance",
+    "contactInfo": {
+      "name": "John Smith",
+      "email": "johnsmith@google.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Netflix",
+    "logo": "https://i.ibb.co/wN4PGbW/net.png",
+    "title": "Data Scientist",
+    "location": "Seattle, WA (Onsite)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a data scientist to help us analyze and interpret large data sets to drive business decisions. The ideal candidate will have experience with data analysis, statistical modeling, and data visualization tools.",
+    "requirements": [
+      "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
+      "1-2 years of experience in data science, data analysis, or related field",
+      "Proficiency in statistical modeling and data visualization tools such as R or Tableau",
+      "Strong problem-solving and communication skills",
+      "Experience with big data technologies such as Hadoop or Spark is a plus"
+    ],
+    "responsibilities": [
+      "Analyze and interpret large data sets to identify trends and insights",
+      "Create statistical models and algorithms to drive business decisions",
+      "Communicate insights and recommendations to stakeholders through data visualizations and presentations",
+      "Collaborate with cross-functional teams to identify opportunities for data-driven improvements"
+    ],
+    "experiences": [
+      "1-2 years of experience in data science, data analysis, or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
+    "salary": "$100,000 - $130,000",
+    "postedDate": "2023-04-08",
+    "applyLink": "https://www.amazon.jobs/en/jobs/1744254/data-scientist",
+    "contactInfo": {
+      "name": "Emily Lee",
+      "email": "emilylejob@hotmail.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Microsoft",
+    "logo": "https://i.ibb.co/SP1bmzN/microsoft.png",
+    "title": "Cloud Solutions Architect",
+    "location": "Redmond, WA (Hybrid)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a cloud solutions architect to help us design and implement cloud-based solutions for our clients. The ideal candidate will have experience with cloud technologies such as Azure or AWS, as well as experience with software architecture and design principles.",
+    "requirements": [
+      "Bachelor's or Master's degree in Computer Science or related field",
+      "1-2 years of experience in cloud architecture, software architecture, or related field",
+      "Proficiency in cloud technologies such as Azure or AWS",
+      "Experience with software architecture and design principles",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Design and implement cloud-based solutions for clients",
+      "Collaborate with cross-functional teams to ensure solution quality and customer satisfaction",
+      "Identify and mitigate solution risks and issues",
+      "Provide technical guidance and mentorship to team members"
+    ],
+    "experiences": [
+      "1-2 years of experience in cloud architecture, software architecture, or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "salary": "$120,000 - $160,000",
+    "postedDate": "2023-04-07",
+    "applyLink": "https://careers.microsoft.com/us/en/job/1111142/Cloud-Solution-Architect",
+    "contactInfo": {
+      "name": "Kate Johnson",
+      "email": "katej@microsoft.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Facebook",
+    "logo": "https://i.ibb.co/C2dP6QZ/facebook.png",
+    "title": "Product Designer",
+    "location": "Menlo Park, CA (Onsite)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a product designer to help us design and improve our products and user experiences. The ideal candidate will have experience with user-centered design principles, as well as proficiency in design tools such as Sketch or Figma.",
+    "requirements": [
+      "Bachelor's or Master's degree in Design, HCI, or related field",
+      "1-2 years of experience in product design or related field",
+      "Proficiency in design tools such as Sketch or Figma",
+      "Experience with user-centered design principles",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Design and improve products and user experiences",
+      "Collaborate with cross-functional teams to ensure product quality and user satisfaction",
+      "Create design prototypes and conduct user research to validate design decisions",
+      "Present design concepts and recommendations to stakeholders"
+    ],
+    "experiences": [
+      "1-2 years of experience in product design or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Design, HCI, or related field",
+    "salary": "$100,000 - $130,000",
+    "postedDate": "2023-04-06",
+    "applyLink": "https://www.facebook.com/careers/v2/jobs/1667317454060151/",
+    "contactInfo": {
+      "name": "Sarah Lee",
+      "email": "sarahlee@facebook.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Tesla",
+    "logo": "https://i.ibb.co/zhLzb2p/tesla.png",
+    "title": "Software Engineer",
+    "location": "Cupertino, CA (Onsite)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a software engineer to help us design and implement software solutions for our products. The ideal candidate will have experience with programming languages such as Java or Python, as well as experience with software development methodologies and practices.",
+    "requirements": [
+      "Bachelor's or Master's degree in Computer Science or related field",
+      "1-2 years of experience in software development or related field",
+      "Proficiency in programming languages such as Java or Python",
+      "Experience with software development methodologies and practices",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Design and implement software solutions for products",
+      "Collaborate with cross-functional teams to ensure solution quality and customer satisfaction",
+      "Identify and mitigate solution risks and issues",
+      "Provide technical guidance and mentorship to team members"
+    ],
+    "experiences": [
+      "1-2 years of experience in software development or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "salary": "$120,000 - $150,000",
+    "postedDate": "2023-04-05",
+    "applyLink": "https://jobs.apple.com/en-us/details/200300335/software-engineer",
+    "contactInfo": {
+      "name": "John Smith",
+      "email": "johnsmith@apple.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Amazon",
+    "logo": "https://i.ibb.co/jkmtyPZ/amazon.png",
+    "title": "Data Scientist",
+    "location": "Seattle, WA (Hybrid)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a data scientist to help us analyze and derive insights from our data. The ideal candidate will have experience with data analysis tools such as Python or R, as well as experience with machine learning and statistical modeling.",
+    "requirements": [
+      "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
+      "1-2 years of experience in data analysis or related field",
+      "Proficiency in data analysis tools such as Python or R",
+      "Experience with machine learning and statistical modeling",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Analyze and derive insights from data",
+      "Collaborate with cross-functional teams to ensure data quality and accuracy",
+      "Develop machine learning and statistical models to support business decisions",
+      "Communicate findings and recommendations to stakeholders"
+    ],
+    "experiences": [
+      "1-2 years of experience in data analysis or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
+    "salary": "$110,000 - $140,000",
+    "postedDate": "2023-04-04",
+    "applyLink": "https://www.amazon.jobs/en/jobs/1674073/data-scientist",
+    "contactInfo": {
+      "name": "Emily Johnson",
+      "email": "emilyjohnson@amazon.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Google",
+    "logo": "https://i.ibb.co/thmK4zq/google.png",
+    "title": "Software Developer",
+    "location": "Mountain View, CA (Onsite)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a software developer to help us design and develop software solutions for our products. The ideal candidate will have experience with programming languages such as C++ or JavaScript, as well as experience with web development frameworks and practices.",
+    "requirements": [
+      "Bachelor's or Master's degree in Computer Science or related field",
+      "1-2 years of experience in software development or related field",
+      "Proficiency in programming languages such as C++ or JavaScript",
+      "Experience with web development frameworks and practices",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Design and develop software solutions for products",
+      "Collaborate with cross-functional teams to ensure solution quality and customer satisfaction",
+      "Identify and mitigate solution risks and issues",
+      "Provide technical guidance and mentorship to team members"
+    ],
+    "experiences": [
+      "1-2 years of experience in software development or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "salary": "$130,000 - $160,000",
+    "postedDate": "2023-04-03",
+    "applyLink": "https://careers.google.com/jobs/results/176328449602256518-software-developer/?distance=50&employment_type=FULL_TIME&location=Mountain%20View%2C%20CA%2C%20USA&sort_by=relevance",
+    "contactInfo": {
+      "name": "Sarah Lee",
+      "email": "sarahlee@google.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Microsoft",
+    "logo": "https://i.ibb.co/SP1bmzN/microsoft.png",
+    "title": "Cloud Solutions Architect",
+    "location": "Redmond, WA (Onsite)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a cloud solutions architect to help us design and implement cloud solutions for our customers. The ideal candidate will have experience with cloud technologies such as Azure or AWS, as well as experience with architecture design and implementation.",
+    "requirements": [
+      "Bachelor's or Master's degree in Computer Science or related field",
+      "1-2 years of experience in cloud architecture or related field",
+      "Proficiency in cloud technologies such as Azure or AWS",
+      "Experience with architecture design and implementation",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Design and implement cloud solutions for customers",
+      "Collaborate with cross-functional teams to ensure solution quality and customer satisfaction",
+      "Identify and mitigate solution risks and issues",
+      "Provide technical guidance and mentorship to team members"
+    ],
+    "experiences": [
+      "1-2 years of experience in cloud architecture or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "salary": "$140,000 - $170,000",
+    "postedDate": "2023-04-02",
+    "applyLink": "https://careers.microsoft.com/us/en/job/1187008/Cloud-Solutions-Architect",
+    "contactInfo": {
+      "name": "Mike Davis",
+      "email": "mikedavis@microsoft.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Facebook",
+    "logo": "https://i.ibb.co/C2dP6QZ/facebook.png",
+    "title": "Product Manager",
+    "location": "Menlo Park, CA (Hybrid)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a product manager to help us define and execute product strategy. The ideal candidate will have experience with product management methodologies and practices, as well as experience with social media and advertising products.",
+    "requirements": [
+      "Bachelor's or Master's degree in Business Administration, Computer Science, or related field",
+      "1-2 years of experience in product management or related field",
+      "Experience with social media and advertising products",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Define and execute product strategy",
+      "Collaborate with cross-functional teams to ensure product quality and customer satisfaction",
+      "Identify and mitigate product risks and issues",
+      "Provide technical guidance and mentorship to team members"
+    ],
+    "experiences": [
+      "1-2 years of experience in product management or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Business Administration, Computer Science, or related field",
+    "salary": "$150,000 - $180,000",
+    "postedDate": "2023-04-01",
+    "applyLink": "https://www.facebook.com/careers/v2/jobs/518914479822406/",
+    "contactInfo": {
+      "name": "Emily Chen",
+      "email": "emilychen@facebook.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Amazon",
+    "logo": "//https://i.ibb.co/jkmtyPZ/amazon.png",
+    "title": "Data Scientist",
+    "location": "Seattle, WA (Remote)",
+    "jobLocation": ["onsite"],
+    "jobDescription": "We are seeking a data scientist to help us analyze large and complex data sets. The ideal candidate will have experience with statistical modeling and machine learning, as well as experience with big data technologies such as Hadoop or Spark.",
+    "requirements": [
+      "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
+      "1-2 years of experience in data science or related field",
+      "Proficiency in statistical modeling and machine learning",
+      "Experience with big data technologies such as Hadoop or Spark",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Analyze large and complex data sets",
+      "Develop statistical models and machine learning algorithms",
+      "Collaborate with cross-functional teams to ensure data accuracy and relevance",
+      "Identify and mitigate data risks and issues",
+      "Provide technical guidance and mentorship to team members"
+    ],
+    "experiences": ["1-2 years of experience in data science or related field"],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
+    "salary": "$120,000 - $150,000",
+    "postedDate": "2023-04-02",
+    "applyLink": "https://www.amazon.jobs/en/jobs/1744204/data-scientist",
+    "contactInfo": {
+      "name": "John Smith",
+      "email": "johnsmith@amazon.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Netflix",
+    "logo": "https://i.ibb.co/wN4PGbW/net.png",
+    "title": "UX Designer",
+    "location": "Cupertino, CA (Onsite)",
+    "jobLocation": ["remote"],
+    "jobDescription": "We are seeking a UX designer to help us design intuitive and compelling user experiences for our products. The ideal candidate will have experience with user-centered design methodologies and practices, as well as experience with design tools such as Sketch or Figma.",
+    "requirements": [
+      "Bachelor's or Master's degree in Design, Computer Science, or related field",
+      "1-2 years of experience in UX design or related field",
+      "Experience with user-centered design methodologies and practices",
+      "Proficiency in design tools such as Sketch or Figma",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Design intuitive and compelling user experiences for our products",
+      "Collaborate with cross-functional teams to ensure design consistency and quality",
+      "Conduct user research and usability testing",
+      "Identify and mitigate design risks and issues",
+      "Provide technical guidance and mentorship to team members"
+    ],
+    "experiences": ["1-2 years of experience in UX design or related field"],
+    "educationRequirements": "Bachelor's or Master's degree in Design, Computer Science, or related field",
+    "salary": "$100,000 - $130,000",
+    "postedDate": "2023-04-03",
+    "applyLink": "https://jobs.apple.com/en-us/details/200333979/ux-designer",
+    "contactInfo": {
+      "name": "Sarah Lee",
+      "email": "sarahlee@apple.com",
+      "phone": "555-555-5555"
+    }
+  },
+  {
+    "company": "Airbnb",
+    "logo": "https://i.ibb.co/T2WYMY5/airbnb.png",
+    "title": "Software Engineer",
+    "location": "Mountain View, CA (Hybrid)",
+    "jobLocation": ["onsite", "remote"],
+    "jobDescription": "We are seeking a software engineer to help us design and develop scalable and reliable software systems. The ideal candidate will have experience with object-oriented programming languages such as Java or Python, as well as experience with distributed systems and databases.",
+    "requirements": [
+      "Bachelor's or Master's degree in Computer Science or related field",
+      "1-2 years of experience in software engineering or related field",
+      "Experience with object-oriented programming languages such as Java or Python",
+      "Experience with distributed systems and databases",
+      "Strong problem-solving and communication skills"
+    ],
+    "responsibilities": [
+      "Design and develop scalable and reliable software systems",
+      "Collaborate with cross-functional teams to ensure software quality and reliability",
+      "Identify and mitigate software risks and issues",
+      "Provide technical guidance and mentorship to team members",
+      "Conduct code reviews and contribute to the overall codebase"
+    ],
+    "experiences": [
+      "1-2 years of experience in software engineering or related field"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "salary": "$120,000 - $150,000",
+    "postedDate": "2023-04-04",
+    "applyLink": "https://careers.google.com/jobs/results/141429711217395910-software-engineer/",
+    "contactInfo": {
+      "name": "David Kim",
+      "email": "davidkim@google.com",
+      "phone": "555-555-5555"
+    }
+  }
+]
