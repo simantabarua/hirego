@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import PageHeader from "./PageHeader";
 
 function AppliedJobs() {
   return (
-    <div>AppliedJobs</div>
-  )
+    <>
+      <PageHeader title="Applied Jobs" />
+    </>
+  );
 }
 
-export default AppliedJobs
+export default AppliedJobs;
