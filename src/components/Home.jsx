@@ -1,9 +1,17 @@
-import React from 'react'
-
+import React from "react";
+import Category from "./Category";
+import FeaturedJobs from "./FeaturedJobs";
+import Header from "./Header";
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <>
+      <Header />
+      <div className="flex items-center flex-col">
+      <Category />
+      <FeaturedJobs />
+     </div>
+    </>
+  );
 }
 
-export default Home
+export default Home;

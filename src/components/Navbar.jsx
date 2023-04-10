@@ -52,7 +52,7 @@ function Navbar() {
           )}
         </div>
         <NavLink to="/" className="w-full flex justify-center">
-          <h2 className="text-3xl">HireGo</h2>
+          <h2 className="text-3xl font-bold">HireGo</h2>
         </NavLink>
       </div>
     </nav>
