@@ -34,7 +34,7 @@ function JobDetails() {
         title="Jobs Details
       "
       />
-      <div className="grid grid-cols-3 md:w-3/4 mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:w-3/4 mx-auto">
         <div className="col-span-2 flex flex-col gap-5 p-5 mb-5">
           <div>
             <h2>

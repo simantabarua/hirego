@@ -6,7 +6,7 @@ function JobCard({ job, handleJobDetails }) {
   const { id, company, logo, title, location, jobLocation, salary } = job;
 
   return (
-    <div className="card w-full bg-base-100 shadow-xl px-5 h-full py-5 mx-5">
+    <div className="card w-full bg-gradient-to-r from-blue-50 to-purple-50 shadow-xl p-5 h-full py-5 mx-5 hover:-translate-y-1 transform transition-all duration-300 ease-in-out">
       <figure>
         <img className=" shadow-md w-full h-16 object-contain" src={logo} />
       </figure>

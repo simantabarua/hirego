@@ -34,7 +34,7 @@ function Category() {
         {jobCategories.map((jobCategory, index) => (
           <div
             key={index}
-            className="rounded-lg shadow-lg bg-pink-100 p-6 cursor-pointer hover:scale-105 hover:-translate-y-1 transform transition-all duration-300 ease-in-out"
+            className="rounded-lg shadow-lg bg-pink-50 p-6 cursor-pointer hover:scale-105 hover:-translate-y-1 transform transition-all duration-300 ease-in-out"
           >
             <img className="w-10 h-10" src={jobCategory.icon} alt="" />
             <h1 className="text-xl font-bold">{jobCategory.title}</h1>

@@ -14,7 +14,7 @@ function AppliedJobs() {
   return (
     <>
       <PageHeader title="Applied Jobs" />
-      <div className="grid gap-5 px-5 md:px-24">
+      <div >
         {foundJobs.map((foundJob, index) => (
           <AppliedJobCard key={foundJob.id} job={foundJob} />
         ))}

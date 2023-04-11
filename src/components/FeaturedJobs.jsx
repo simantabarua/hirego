@@ -19,7 +19,7 @@ function FeaturedJobs() {
         title="Featured Jobs"
         subtitle="Explore thousands of job opportunities with all the information you need. Its your future"
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10 px-6">
         {jobsToDisplay.map((job) => (
           <JobCard key={job.id} job={job}  />
         ))}
