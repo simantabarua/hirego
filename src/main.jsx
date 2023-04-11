@@ -8,14 +8,14 @@ import Home from "./pages/Home";
 import JobDetails from "./pages/JobDetails";
 import Statistics from "./pages/Statistics";
 import "./index.css";
-import { dataLoader } from "./utils/dataLoader";
+import { LoadAllData, loadSingleData } from "./utils/dataLoader";
 import App from "./App";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
-    loader: dataLoader,
+    loader: LoadAllData,
     children: [
       {
         path: "/",
@@ -34,8 +34,9 @@ const router = createBrowserRouter([
         element: <Blog />,
       },
       {
-        path: "/jobdetails",
+        path: "/jobdetails/:jobId",
         element: <JobDetails />,
+        loader: loadSingleData,
       },
     ],
   },

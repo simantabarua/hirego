@@ -1,24 +1,9 @@
 import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/solid";
 import React from "react";
+import { Link } from "react-router-dom";
 
-function JobCard({ job }) {
-  const {
-    id,
-    company,
-    logo,
-    title,
-    location,
-    jobLocation,
-    jobDescription,
-    requirements,
-    responsibilities,
-    experiences,
-    educationRequirements,
-    salary,
-    postedDate,
-    applyLink,
-    contactInfo,
-  } = job;
+function JobCard({ job, handleJobDetails }) {
+  const { id, company, logo, title, location, jobLocation, salary } = job;
 
   return (
     <div className="card w-full bg-base-100 shadow-xl px-5 h-full py-5 mx-5">
@@ -47,7 +32,9 @@ function JobCard({ job }) {
             <CurrencyDollarIcon className="w-5 h-5" /> Salary: {salary}
           </p>
         </div>
-        <button className="btn-primary">View Details</button>
+        <Link to={`/jobdetails/${id}`}>
+          <button className="btn-primary">View Details</button>
+        </Link>
       </div>
     </div>
   );
