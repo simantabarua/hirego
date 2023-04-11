@@ -1,10 +1,18 @@
-import React from "react";
+import React, { createContext } from "react";
+import { useLoaderData } from "react-router-dom";
 import "./App.css";
+import Layout from "./components/Layout";
+export const JobDataContext = createContext([]);
 
 function App() {
-  return <div>
-    <h1>test</h1>
-  </div>;
+  const jobs = useLoaderData();
+  return (
+    <>
+      <JobDataContext.Provider value={jobs}>
+        <Layout />
+      </JobDataContext.Provider>
+    </>
+  );
 }
 
 export default App;

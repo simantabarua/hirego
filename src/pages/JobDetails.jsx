@@ -6,13 +6,15 @@ import {
   CurrencyDollarIcon,
   MapPinIcon,
 } from "@heroicons/react/24/solid";
-import PageHeader from "./PageHeader";
+import PageHeader from "../components/PageHeader";
 
 function JobDetails() {
   return (
     <>
-      <PageHeader  title="Jobs Details
-      " />
+      <PageHeader
+        title="Jobs Details
+      "
+      />
       <div className="grid grid-cols-3 md:w-3/4 mx-auto">
         <div className="col-span-2 flex flex-col gap-5 font-semibold p-5">
           <div>

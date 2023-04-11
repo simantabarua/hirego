@@ -1,19 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import AppliedJobs from "./components/AppliedJobs";
-import Blog from "./components/Blog";
-import ErrorPage from "./components/ErrorPage";
-import Home from "./components/Home";
-import JobDetails from "./components/JobDetails";
-import Layout from "./components/Layout";
-import Statistics from "./components/Statistics";
+import AppliedJobs from "./pages/AppliedJobs";
+import Blog from "./pages/Blog";
+import ErrorPage from "./pages/ErrorPage";
+import Home from "./pages/Home";
+import JobDetails from "./pages/JobDetails";
+import Statistics from "./pages/Statistics";
 import "./index.css";
+import { dataLoader } from "./utils/dataLoader";
+import App from "./App";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />,
+    element: <App />,
     errorElement: <ErrorPage />,
+    loader: dataLoader,
     children: [
       {
         path: "/",
