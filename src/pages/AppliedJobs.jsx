@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useLoaderData } from "react-router-dom";
 import { JobDataContext } from "../App";
+import AppliedJobCard from "../components/AppliedJobCard";
 import JobCard from "../components/JobCard";
 import PageHeader from "../components/PageHeader";
 import { getLocalStorageData } from "../utils/localStorage";
@@ -13,9 +14,9 @@ function AppliedJobs() {
   return (
     <>
       <PageHeader title="Applied Jobs" />
-      <div className="grid">
+      <div className="grid gap-5 px-5 md:px-24">
         {foundJobs.map((foundJob, index) => (
-          <JobCard  key={foundJob.id} job={foundJob} />
+          <AppliedJobCard key={foundJob.id} job={foundJob} />
         ))}
       </div>
     </>
