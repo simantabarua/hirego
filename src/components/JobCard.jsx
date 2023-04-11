@@ -29,13 +29,13 @@ function JobCard({ job }) {
         <h2 className="card-title">{title}</h2>
         <p>{company}</p>
         <div className="flex gap-2">
-          {jobLocation.map((jobLoc, index) => (
+          {jobLocation.map((jobLocationTag, index) => (
             <span
               key={index}
-              jobLoc={jobLoc}
+              job-location-data={jobLocationTag}
               className="py-2 px-5 border border-purple-500 rounded-lg"
             >
-              {jobLoc}
+              {jobLocationTag}
             </span>
           ))}
         </div>
