@@ -7,6 +7,7 @@ function AppliedJobCard({ job }) {
 
   return (
     <div className="flex flex-col md:flex-row items-center p-5 rounded-lg shadow-lg m-5">
+      
       <img className="w-64 h-full object-contain" src={logo} />
       <div className="card-body gap-4">
         <h2 className="card-title">{title}</h2>

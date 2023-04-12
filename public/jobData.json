@@ -5,7 +5,7 @@
     "logo": "https://i.ibb.co/thmK4zq/google.png",
     "title": "Software Engineer",
     "location": "Mountain View, CA ",
-    "jobLocation": ["onsite", "remote"],
+    "jobLocation": ["onsite"],
     "jobDescription": "We are seeking a software engineer to help us build and improve our cutting-edge software products. The ideal candidate will have experience with programming languages such as Java, Python, or C++, as well as experience with software development processes such as Agile or Scrum.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science or related field",
@@ -39,7 +39,7 @@
     "logo": "https://i.ibb.co/wN4PGbW/net.png",
     "title": "Data Scientist",
     "location": "Seattle, WA",
-    "jobLocation": ["onsite", "remote"],
+    "jobLocation": ["remote"],
     "jobDescription": "We are seeking a data scientist to help us analyze and interpret large data sets to drive business decisions. The ideal candidate will have experience with data analysis, statistical modeling, and data visualization tools.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
@@ -73,7 +73,7 @@
     "logo": "https://i.ibb.co/SP1bmzN/microsoft.png",
     "title": "Cloud Solutions Architect",
     "location": "Redmond, WA ",
-    "jobLocation": ["onsite", "remote"],
+    "jobLocation": ["hybrid", "remote"],
     "jobDescription": "We are seeking a cloud solutions architect to help us design and implement cloud-based solutions for our clients. The ideal candidate will have experience with cloud technologies such as Azure or AWS, as well as experience with software architecture and design principles.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science or related field",
@@ -406,3 +406,6 @@
     }
   }
 ]
+
+
+
