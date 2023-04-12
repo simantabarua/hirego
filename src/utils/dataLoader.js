@@ -8,17 +8,14 @@ const LoadAllData = async () => {
 
 const loadSingleData = async ({ params }) => {
   const jobs = await LoadAllData();
-  const getSavedJobs = getLocalStorageData();
-  const isApplied = getSavedJobs[0]?.applied;
   const filteredJob = jobs.find((job) => job.id == params.jobId);
-  return {filteredJob, isApplied};
+  return filteredJob;
 };
 
 const getAppliedJobs = async () => {
   const jobs = await LoadAllData();
   const getSavedJobs = getLocalStorageData();
-  const appliedJobId = getSavedJobs[0]?.id;
-  const jobApplied = jobs.filter((job) => appliedJobId?.includes(job.id));
+  const jobApplied = jobs.filter((job) => getSavedJobs.includes(job.id));
   return jobApplied;
 };
 

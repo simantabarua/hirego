@@ -12,8 +12,7 @@ const getLocalStorageData = () => {
     if (appliedJob.includes(id)) {
       return;
     }
-    const newJob = {id, applied: true };
-    const updatedJobs = [...appliedJob, newJob];
+    const updatedJobs = [...appliedJob, id];
     localStorage.setItem("applied_jobs", JSON.stringify(updatedJobs));
   };
   

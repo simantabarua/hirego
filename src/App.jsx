@@ -8,6 +8,7 @@ function App() {
   const jobs = useLoaderData();
   return (
     <>
+      
       <JobDataContext.Provider value={jobs}>
         <Layout />
       </JobDataContext.Provider>

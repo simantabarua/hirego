@@ -8,10 +8,10 @@ import {
 } from "@heroicons/react/24/solid";
 import PageHeader from "../components/PageHeader";
 import { useLoaderData } from "react-router-dom";
-import { saveToLocalStorage } from "../utils/localStorage";
+import { getLocalStorageData, saveToLocalStorage } from "../utils/localStorage";
 
 function JobDetails() {
-  const { filteredJob, isApplied } = useLoaderData();
+  const jobs = useLoaderData();
   const {
     id,
     title,
@@ -22,9 +22,13 @@ function JobDetails() {
     educationRequirements,
     salary,
     contactInfo,
-  } = filteredJob;
+  } = jobs;
 
   const handleAppliedJobs = (id) => {
+    const isExist = getLocalStorageData();
+    if (isExist.includes(id)) {
+      alert("Job Already applied");
+    }
     saveToLocalStorage(id);
   };
 
@@ -89,7 +93,7 @@ function JobDetails() {
               }}
               className="btn-primary !w-full"
             >
-              {isApplied ? "Applied" : "Apply Now"}
+              Apply Now
             </button>
           </div>
         </div>
