@@ -14,6 +14,8 @@ HireGo is a career website where users can browse job openings, apply for jobs, 
 - Recharts
 - contextAPI
 - React-router-dom
+- React-toastify
+
 
 ## Installation
 

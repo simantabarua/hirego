@@ -30,7 +30,7 @@ function AppliedJobs() {
           <h2 className="font-bold text-5xl">No Applied Jobs Found</h2>
         </div>
       ) : (
-        <div className="px-5 md:px-32">
+        <div className=" md:px-32">
           <div className="flex justify-end lg:px-20">
             <div className="dropdown bg-">
               <label tabIndex={0} className="btn btn-ghost bg-gray-200 m-1">
