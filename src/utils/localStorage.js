@@ -1,8 +1,8 @@
 const getLocalStorageData = () => {
     let appliedJob = [];
-    const storedCart = localStorage.getItem("applied_jobs");
-    if (storedCart) {
-      appliedJob = JSON.parse(storedCart);
+    const isExist = localStorage.getItem("applied_jobs");
+    if (isExist) {
+      appliedJob = JSON.parse(isExist);
     }
     return appliedJob;
   };
@@ -12,8 +12,9 @@ const getLocalStorageData = () => {
     if (appliedJob.includes(id)) {
       return;
     }
-    const newJob = [...appliedJob, id];
-    localStorage.setItem("applied_jobs", JSON.stringify(newJob));
+    const newJob = {id, applied: true };
+    const updatedJobs = [...appliedJob, newJob];
+    localStorage.setItem("applied_jobs", JSON.stringify(updatedJobs));
   };
   
   export {getLocalStorageData, saveToLocalStorage };

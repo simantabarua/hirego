@@ -11,7 +11,7 @@ import { useLoaderData } from "react-router-dom";
 import { saveToLocalStorage } from "../utils/localStorage";
 
 function JobDetails() {
-  const job = useLoaderData();
+  const { filteredJob, isApplied } = useLoaderData();
   const {
     id,
     title,
@@ -22,7 +22,7 @@ function JobDetails() {
     educationRequirements,
     salary,
     contactInfo,
-  } = job;
+  } = filteredJob;
 
   const handleAppliedJobs = (id) => {
     saveToLocalStorage(id);
@@ -34,8 +34,8 @@ function JobDetails() {
         title="Jobs Details
       "
       />
-      <div className="grid grid-cols-1 md:grid-cols-3 md:w-3/4 mx-auto">
-        <div className="col-span-2 flex flex-col gap-5 p-5 mb-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 px-20 mx-auto mb-5 md:mb-20">
+        <div className="col-span-2 flex flex-col gap-5 p-5">
           <div>
             <h2>
               <span className="font-bold">Job Description:</span>
@@ -89,7 +89,7 @@ function JobDetails() {
               }}
               className="btn-primary !w-full"
             >
-              Apply Now
+              {isApplied ? "Applied" : "Apply Now"}
             </button>
           </div>
         </div>
