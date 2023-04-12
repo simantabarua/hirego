@@ -31,7 +31,7 @@ function AppliedJobs() {
         </div>
       ) : (
         <div className="px-5 md:px-32">
-          <div className="flex justify-end px-20">
+          <div className="flex justify-end lg:px-20">
             <div className="dropdown bg-">
               <label tabIndex={0} className="btn btn-ghost bg-gray-200 m-1">
                 Filter By <ChevronDownIcon className="w-6 h-6" />
@@ -83,7 +83,7 @@ function AppliedJobs() {
           </div>
 
           {appliedJobs.length === 0 ? (
-            <div c>
+            <div>
               <p className="text-4xl text-center">No jobs found.</p>
             </div>
           ) : (

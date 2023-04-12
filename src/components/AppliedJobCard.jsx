@@ -3,12 +3,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function AppliedJobCard({ job }) {
-  const { id, company, logo, title, location, jobLocation, salary } = job;
+  const {
+    id,
+    company,
+    logo,
+    title,
+    location,
+    jobLocation,
+    salary,
+    employmentType,
+  } = job;
 
   return (
-    <div className="flex flex-col md:flex-row items-center p-5 rounded-lg shadow-lg m-5">
-
-      <img className="w-64 h-32 object-contain" src={logo} />
+    <div className="flex flex-col md:flex-row items-center md:p-4 rounded-lg shadow-lg m-5">
+      <img className="md:w-32 lg:w-64 h-32 object-contain" src={logo} />
       <div className="card-body gap-4">
         <h2 className="card-title">{title}</h2>
         <p>{company}</p>
@@ -22,6 +30,9 @@ function AppliedJobCard({ job }) {
               {jobLocationTag}
             </span>
           ))}
+          <span className="py-2 px-5 border border-purple-500 rounded-lg">
+            {employmentType}
+          </span>
         </div>
         <div className="flex flex-col gap-2">
           <p className="flex gap-1 items-center">

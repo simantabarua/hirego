@@ -6,6 +6,7 @@
     "title": "Software Engineer",
     "location": "Mountain View, CA ",
     "jobLocation": ["onsite"],
+    "employmentType": "Full-time",
     "jobDescription": "We are seeking a software engineer to help us build and improve our cutting-edge software products. The ideal candidate will have experience with programming languages such as Java, Python, or C++, as well as experience with software development processes such as Agile or Scrum.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science or related field",
@@ -39,7 +40,8 @@
     "logo": "https://i.ibb.co/wN4PGbW/net.png",
     "title": "Data Scientist",
     "location": "Seattle, WA",
-    "jobLocation": ["remote"],
+    "jobLocation": ["onsite"],
+    "employmentType": "Part-time",
     "jobDescription": "We are seeking a data scientist to help us analyze and interpret large data sets to drive business decisions. The ideal candidate will have experience with data analysis, statistical modeling, and data visualization tools.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
@@ -74,6 +76,7 @@
     "title": "Cloud Solutions Architect",
     "location": "Redmond, WA ",
     "jobLocation": ["hybrid", "remote"],
+    "employmentType": "Full-time",
     "jobDescription": "We are seeking a cloud solutions architect to help us design and implement cloud-based solutions for our clients. The ideal candidate will have experience with cloud technologies such as Azure or AWS, as well as experience with software architecture and design principles.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science or related field",
@@ -108,6 +111,7 @@
     "title": "Product Designer",
     "location": "Menlo Park, CA ",
     "jobLocation": ["onsite", "remote"],
+    "employmentType": "Part-time",
     "jobDescription": "We are seeking a product designer to help us design and improve our products and user experiences. The ideal candidate will have experience with user-centered design principles, as well as proficiency in design tools such as Sketch or Figma.",
     "requirements": [
       "Bachelor's or Master's degree in Design, HCI, or related field",
@@ -142,6 +146,7 @@
     "title": "Software Engineer",
     "location": "Cupertino, CA ",
     "jobLocation": ["onsite", "remote"],
+    "employmentType": "Full-time",
     "jobDescription": "We are seeking a software engineer to help us design and implement software solutions for our products. The ideal candidate will have experience with programming languages such as Java or Python, as well as experience with software development methodologies and practices.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science or related field",
@@ -176,6 +181,7 @@
     "title": "Data Scientist",
     "location": "Seattle, WA ",
     "jobLocation": ["onsite", "remote"],
+    "employmentType": "Part-time",
     "jobDescription": "We are seeking a data scientist to help us analyze and derive insights from our data. The ideal candidate will have experience with data analysis tools such as Python or R, as well as experience with machine learning and statistical modeling.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
@@ -210,6 +216,7 @@
     "title": "Software Developer",
     "location": "Mountain View, CA ",
     "jobLocation": ["onsite", "remote"],
+    "employmentType": "Full-time",
     "jobDescription": "We are seeking a software developer to help us design and develop software solutions for our products. The ideal candidate will have experience with programming languages such as C++ or JavaScript, as well as experience with web development frameworks and practices.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science or related field",
@@ -244,6 +251,7 @@
     "title": "Cloud Solutions Architect",
     "location": "Redmond, WA ",
     "jobLocation": ["onsite", "remote"],
+    "employmentType": "Part-time",
     "jobDescription": "We are seeking a cloud solutions architect to help us design and implement cloud solutions for our customers. The ideal candidate will have experience with cloud technologies such as Azure or AWS, as well as experience with architecture design and implementation.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science or related field",
@@ -278,6 +286,7 @@
     "title": "Product Manager",
     "location": "Menlo Park, CA ",
     "jobLocation": ["onsite", "remote"],
+    "employmentType": "Full-time",
     "jobDescription": "We are seeking a product manager to help us define and execute product strategy. The ideal candidate will have experience with product management methodologies and practices, as well as experience with social media and advertising products.",
     "requirements": [
       "Bachelor's or Master's degree in Business Administration, Computer Science, or related field",
@@ -311,6 +320,7 @@
     "title": "Data Scientist",
     "location": "Seattle, WA ",
     "jobLocation": ["onsite"],
+    "employmentType": "Full-time",
     "jobDescription": "We are seeking a data scientist to help us analyze large and complex data sets. The ideal candidate will have experience with statistical modeling and machine learning, as well as experience with big data technologies such as Hadoop or Spark.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science, Statistics, or related field",
@@ -343,7 +353,8 @@
     "logo": "https://i.ibb.co/wN4PGbW/net.png",
     "title": "UX Designer",
     "location": "Cupertino, CA ",
-    "jobLocation": ["remote"],
+    "jobLocation": ["onsite"],
+    "employmentType": "Full-time",
     "jobDescription": "We are seeking a UX designer to help us design intuitive and compelling user experiences for our products. The ideal candidate will have experience with user-centered design methodologies and practices, as well as experience with design tools such as Sketch or Figma.",
     "requirements": [
       "Bachelor's or Master's degree in Design, Computer Science, or related field",
@@ -377,6 +388,7 @@
     "title": "Software Engineer",
     "location": "Mountain View, CA ",
     "jobLocation": ["onsite", "remote"],
+    "employmentType": "Part-time",
     "jobDescription": "We are seeking a software engineer to help us design and develop scalable and reliable software systems. The ideal candidate will have experience with object-oriented programming languages such as Java or Python, as well as experience with distributed systems and databases.",
     "requirements": [
       "Bachelor's or Master's degree in Computer Science or related field",
@@ -406,6 +418,3 @@
     }
   }
 ]
-
-
-
