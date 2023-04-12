@@ -1,6 +1,6 @@
 # HireGo
 
-[Live Site Link](hirego.netlify.app/)
+[Live Site Link](https://hirego.netlify.app/)
 
 ## Description
 
