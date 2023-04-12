@@ -9,6 +9,7 @@ import {
 import PageHeader from "../components/PageHeader";
 import { useLoaderData } from "react-router-dom";
 import { getLocalStorageData, saveToLocalStorage } from "../utils/localStorage";
+import { toast } from "react-toastify";
 
 function JobDetails() {
   const jobs = useLoaderData();
@@ -27,9 +28,11 @@ function JobDetails() {
   const handleAppliedJobs = (id) => {
     const isExist = getLocalStorageData();
     if (isExist.includes(id)) {
-      alert("Job Already applied");
+      toast("Job Already Applied");
+    } else {
+      saveToLocalStorage(id);
+      toast("Job Applied success");
     }
-    saveToLocalStorage(id);
   };
 
   return (
