@@ -1,5 +1,5 @@
-import React from "react";
-import { ResponsiveContainer, PieChart, Pie, Legend, Tooltip } from "recharts";
+import React from 'react';
+import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const marks = [
   { name: "Assignment 1", value: 60 },
@@ -12,43 +12,18 @@ const marks = [
   { name: "Assignment 8", value: 60 },
 ];
 
-const totalMarks = marks.reduce((acc, cur) => acc + cur.value, 0);
-const data = marks.map((mark) => ({
-  name: mark.name,
-  value: mark.value,
-  percentage: ((mark.value / totalMarks) * 100).toFixed(2) + "%",
-}));
-
-const average = [{ name: "Average Marks", value: totalMarks / marks.length }];
-
-function Statistics() {
+function AreaChartComponent() {
   return (
-    <>
-      <div className="w-full h-96 ">
-        <ResponsiveContainer>
-          <PieChart>
-            <Pie
-              dataKey="value"
-              data={data}
-              fill="#8884d8"
-              label={({ percentage }) => `${percentage}`}
-              cursor="pointer"
-            />
-            <Pie
-              data={average}
-              dataKey="value"
-              cx="50%"
-              cy="50%"
-              outerRadius={60}
-              fill="#ff84d8"
-            />
-            <Tooltip />
-            <Legend />
-          </PieChart>
-        </ResponsiveContainer>
-      </div>
-    </>
+    <ResponsiveContainer width="100%" height={300}>
+      <AreaChart data={marks}>
+        <XAxis dataKey="name" />
+        <YAxis />
+        <CartesianGrid strokeDasharray="3 3" />
+        <Tooltip />
+        <Area type="monotone" dataKey="value" stroke="#8884d8" fill="#8884d8" />
+      </AreaChart>
+    </ResponsiveContainer>
   );
 }
 
-export default Statistics;
+export default AreaChartComponent;
