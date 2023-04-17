@@ -4,7 +4,7 @@ import Comp from "../assets/Comp.json"
 
 function Header() {
   return (
-    <div className="flex flex-col gap-5 md:flex-row items-center justify-between py-10 px-5 md:px-24 ">
+    <div className="flex gap-5 flex-col-reverse md:flex-row items-center justify-between py-10 px-5 md:px-24 ">
       <div className="md:w-1/2">
         <h1 className="text-4xl md:text-5xl font-bold mb-5">
           One Step <br /> Closer To Your <br />{" "}
@@ -18,7 +18,7 @@ function Header() {
         <button className="btn-primary">Get Started</button>
       </div>
       <div className="relative lg:w-1/2 ">
-        <div className="w-full lg:w-4/5 lg:ml-auto h-56  sm:h-96">
+        <div className="w-full lg:w-4/5 lg:ml-auto ">
         <Lottie animationData={Comp} loop={true} />
         </div>
       </div>

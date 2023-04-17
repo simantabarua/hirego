@@ -30,7 +30,7 @@ function Category() {
         title="Job List"
         subtitle="Explore thousands of job opportunities with all the information you need. Its your future"
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-5 mb-2">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mx-auto gap-5 mb-2 px-2">
         {jobCategories.map((jobCategory, index) => (
           <div
             key={index}

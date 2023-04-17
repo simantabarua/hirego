@@ -24,7 +24,7 @@ function FeaturedJobs() {
         ))}
       </div>
       {!showAllJobs && (
-        <div className="p-5 w-full">
+        <div className="p-5  w-full md:w-64 mx-auto">
           <button className="btn-primary " onClick={handleShowAllJobs}>
             See more
           </button>
