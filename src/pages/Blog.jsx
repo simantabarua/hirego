@@ -29,18 +29,18 @@ function Blog() {
       <PageHeader title="Blog" />
       <div className="flex flex-col items-center justify-center bg-gray-100 min-h-screen py-6">
         <div className="max-w-7xl w-full flex flex-col gap-5 px-4 sm:px-6 lg:px-8">
-          {questionAnswers.map((questionAnswer, index) => (
+          {questionAnswers.map((questionanswer, index) => (
             <div
               key={index}
-              questionAnswer={questionAnswer}
+              questionanswer={questionanswer}
               className="bg-white overflow-hidden shadow-md rounded-lg"
             >
               <div className="p-6">
                 <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                  {questionAnswer.question}
+                  {questionanswer.question}
                 </h2>
                 <p className="text-gray-700 text-base">
-                  {questionAnswer.answer}
+                  {questionanswer.answer}
                 </p>
               </div>
             </div>

@@ -20,7 +20,7 @@ function AppliedJobCard({ job }) {
       <div className="card-body gap-4">
         <h2 className="card-title">{title}</h2>
         <p>{company}</p>
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           {jobLocation.map((jobLocationTag, index) => (
             <span
               key={index}

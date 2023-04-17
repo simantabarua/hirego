@@ -4,14 +4,26 @@ function Footer() {
     <footer className="footer p-10 bg-neutral text-neutral-content mt-auto ">
       <div>
         <span className="footer-title text-4xl font-bold "> HireGo </span>
-        <p className="w-96">
+        <p className="w-full md:w-64 ">
           There are many variations of passages of Lorem Ipsum , but the
           majority have suffered alteration in some form.
         </p>
         <div className="flex gap-2 items-center">
-          <img className="w-8" src="https://i.ibb.co/5kvL2h3/github.png" alt="" />
-          <img className="w-8" src="https://i.ibb.co/qCC9DpP/linkedin.png" alt="" />
-          <img className="w-8" src="https://i.ibb.co/R63DNq6/twitter.png" alt="" />
+          <img
+            className="w-8"
+            src="https://i.ibb.co/5kvL2h3/github.png"
+            alt=""
+          />
+          <img
+            className="w-8"
+            src="https://i.ibb.co/qCC9DpP/linkedin.png"
+            alt=""
+          />
+          <img
+            className="w-8"
+            src="https://i.ibb.co/R63DNq6/twitter.png"
+            alt=""
+          />
         </div>
         <p>&copy; Copy Right 2023</p>
       </div>

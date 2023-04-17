@@ -11,7 +11,6 @@ function FeaturedJobs() {
   const handleShowAllJobs = () => {
     setShowAllJobs(true);
   };
- 
 
   return (
     <>

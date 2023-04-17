@@ -3,17 +3,26 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function JobCard({ job, handleJobDetails }) {
-  const { id, company, logo, title, location, jobLocation, salary, employmentType } = job;
+  const {
+    id,
+    company,
+    logo,
+    title,
+    location,
+    jobLocation,
+    salary,
+    employmentType,
+  } = job;
 
   return (
-    <div className="card w-full bg-gradient-to-r from-blue-50 to-purple-50 shadow-xl p-5 h-full py-5 mx-5 hover:-translate-y-1 transform transition-all duration-300 ease-in-out">
+    <div className="card w-full bg-gradient-to-r from-blue-50 to-purple-50 shadow-xl h-full py-5  hover:-translate-y-1 transform transition-all duration-300 ease-in-out">
       <figure>
         <img className=" shadow-md w-full h-16 object-contain" src={logo} />
       </figure>
       <div className="card-body gap-4">
         <h2 className="card-title">{title}</h2>
         <p>{company}</p>
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           {jobLocation.map((jobLocationTag, index) => (
             <span
               key={index}
@@ -23,9 +32,11 @@ function JobCard({ job, handleJobDetails }) {
               {jobLocationTag}
             </span>
           ))}
-          <span className="py-2 px-5 border border-purple-500 rounded-lg">{ employmentType}</span>
+          <span className="py-2 px-5 border border-purple-500 rounded-lg">
+            {employmentType}
+          </span>
         </div>
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           <p className="flex gap-1 items-center">
             <MapPinIcon className="w-5 h-5" /> {location}
           </p>
